@@ -1,0 +1,1 @@
+puppet apply .\manifests\build.pp --modulepath=".\site\;.\modules\" --hiera_config=".\hiera.yaml" --verbose --logdest "C:\puppet\puppetapply_log.txt
